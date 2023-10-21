@@ -19,6 +19,7 @@ namespace Tyuiu.PostikaAO.Sprint3.Task2.V22.Lib
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(multySeries, 3);
+
         }
     }
 }

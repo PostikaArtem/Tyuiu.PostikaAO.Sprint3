@@ -20,6 +20,7 @@ namespace Tyuiu.PostikaAO.Sprint3.Task2.V22.Test
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
             double wait = 0.125;
             Assert.AreEqual(wait, res);
+
         }
     }
 }
