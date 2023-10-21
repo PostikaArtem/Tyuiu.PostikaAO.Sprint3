@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{745B239C-77C7-4A69-829C-0E7895941425}</ProjectGuid>
+    <ProjectGuid>{20F02C83-96B9-4C5F-902E-8396240F7F3A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.PostikaAO.Sprint3.Task1.V22</RootNamespace>
-    <AssemblyName>Tyuiu.PostikaAO.Sprint3.Task1.V22</AssemblyName>
+    <RootNamespace>Tyuiu.PostikaAO.Sprint3.Task3.V5</RootNamespace>
+    <AssemblyName>Tyuiu.PostikaAO.Sprint3.Task3.V5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.PostikaAO.Sprint3.Task2.V22.Lib\Tyuiu.PostikaAO.Sprint3.Task2.V22.Lib.csproj">
-      <Project>{a3f9d94c-3f7d-4f1e-9f92-b45cc2b594ae}</Project>
-      <Name>Tyuiu.PostikaAO.Sprint3.Task2.V22.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.PostikaAO.Sprint3.Task3.V5.Lib\Tyuiu.PostikaAO.Sprint3.Task3.V5.Lib.csproj">
+      <Project>{660a7704-14d5-4693-b1ee-f60d87409317}</Project>
+      <Name>Tyuiu.PostikaAO.Sprint3.Task3.V5.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
